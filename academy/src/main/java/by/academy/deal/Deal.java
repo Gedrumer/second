@@ -3,14 +3,18 @@ package by.academy.deal;
 public class Deal {
 	// user seller, user buyer, product[], LocalDateTime
 	// methods: 1)full price 2)deal
-	String[] productname;
-	String LocalDateTime;
-
+	private String[] productname;
+	private String LocalDateTime;
+	private User buyer;
+	private User seller;
 	public void setProductName(String productname) {
 		this.productname = productname.split(" ");
 
 	}
-
+//	void userBuyer(String a) {
+//		buyer=a;
+//		
+//	}
 	public String[] getProductName() {
 		return productname;
 	}
@@ -27,5 +31,6 @@ public class Deal {
 		return fullPrice;
 		
 	}
+	
 
 }

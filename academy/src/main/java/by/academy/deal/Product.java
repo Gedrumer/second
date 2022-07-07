@@ -2,11 +2,10 @@ package by.academy.deal;
 
 public class Product {
 	// methods: discount- возвращаем double
-	String product;
-	int price;
-	int quantity;
-	int isTax;
-
+	protected String product;
+	protected int price;
+	protected int quantity;
+	protected int isTax;
 	public void setProducts(String product) {
 		this.product = product;
 	}
@@ -39,9 +38,11 @@ public class Product {
 		return isTax;
 	}
 
-	public double discount(double n1, double n2) {
-		n1 = 1;
-		return n1;
+	public  double discount() {
+		if (quantity>10) {
+			return 0.4;
+		}
+		return 1;
 
 	}
 

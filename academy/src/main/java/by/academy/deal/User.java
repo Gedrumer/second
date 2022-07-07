@@ -1,8 +1,8 @@
 package by.academy.deal;
 
 public class User {
-	String nickname;
-	int money;
+	private String nickname;
+	private int money;
 	public void setName(String nickname) {
 		this.nickname=nickname;
 	}
