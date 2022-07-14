@@ -10,7 +10,12 @@ public class DealTest {
 //		seller.inputUserSeller();
 //		buyer.outputUserBuyer();
 //		seller.outputUserSeller();
-		deal.cheque();
+//		deal.cheque();
+		for(int i=0;i<100;i++) {
+			deal.addProduct(new Cheese);
+		}
+		
+		
 	}
 
 }
