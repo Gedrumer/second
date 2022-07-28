@@ -7,14 +7,5 @@ public class Food {
 
 	public static void main(String[] args) {
 		Food food=new Food();
-		food.prepare(class Cook implements Cookable{
-
-			@Override
-			public void cook(String str) {
-				// TODO Auto-generated method stub
-				
-			}
-			
-		}; "Hello");
 	}
 }
